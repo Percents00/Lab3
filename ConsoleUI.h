@@ -1,6 +1,5 @@
 #pragma once
 
-#include <iostream>
 #include "SquareMatrix.h"
 #include "Vector.h"
 
