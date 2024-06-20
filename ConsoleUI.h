@@ -14,11 +14,9 @@ private:
     
     Vector<T> inputVector(const std::string& prompt = "Enter vector: ") const;
     
-    void displayMatrix(const SquareMatrix<T>& matrix, 
-                       const std::string& message = "Matrix:") const;
+    void displayMatrix(const SquareMatrix<T>& matrix, const std::string& message = "Matrix:") const;
 
-    void displayVector(const Vector<T>& vector, 
-                        const std::string& message = "Vector:") const;
+    void displayVector(const Vector<T>& vector, const std::string& message = "Vector:") const;
 
     int getChoice(int minChoice, int maxChoice) const;
 
